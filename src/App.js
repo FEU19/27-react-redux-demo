@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import Counter from './components/Counter';
 
 function App() {
     return (
@@ -8,7 +9,8 @@ function App() {
             <h1> React Redux demo </h1>
         </header>
         <main>
-            
+            <Counter />
+            <Counter />
         </main>
         </div>
     );
