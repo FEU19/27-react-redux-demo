@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 
+// Component that has its own state
 const Counter = () => {
     const [value, setValue] = useState(10);
     const increase = () => setValue(value + 1);
